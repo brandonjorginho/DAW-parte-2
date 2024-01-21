@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+
+  min-height: 100%;
+}
+
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+    
+    grid-area: header;
+    background-color: blue;
+}
+
+.menu {
+  grid-area: menu;
+  background-color:greenyellow;
+}
+
+.barral {
+  grid-area: barral;
+  background-color: rgb(29, 92, 210);
+}
+
+.principal {
+  grid-area: principal;
+  background-color: rgb(139, 139, 139);
+}
+
+.pie {
+  grid-area: pie;
+  background-color: black;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template:
+    "header"  100px
+    "menu"  50px
+    "principal"    auto
+    "barral" 100px
+    "pie"  100px;
+}
+
+@media (min-width: 600px) {
+  .grid-container {
+
+
+    grid-template:
+      "header  header" 100px
+      "menu  menu" 50px
+      "barral principal"   auto
+      "pie  pie" 100px /
+      200px    auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template:
+      "header  header header"  100px
+      "menu  principal   barral" auto
+      "pie  pie pie"  100px /
+      200px    auto   200px;
+  }
+}

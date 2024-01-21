@@ -1,0 +1,38 @@
+div{
+    color: black;    
+}
+
+.example{
+    color: black;
+}
+
+example1{
+    color: black;
+}
+
+example2{
+    color: black;
+}
+
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+[href]{
+    color: bblack;
+}
+
+[href="link11111"]{
+    color: ablack;
+}
+h1+p{
+    background-color: black;
+}
+h1 ~ p{
+    background-color: black;
+}
+section+article{
+    color: black;
+}

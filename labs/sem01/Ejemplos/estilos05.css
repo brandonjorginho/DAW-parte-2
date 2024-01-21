@@ -1,0 +1,20 @@
+
+#efectos01{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(238, 230, 2);
+    text-shadow: 2px 2px 4px rgb(214, 18, 18);
+}
+
+#efecto02{
+    color: white;
+    text-shadow: 1px 1px 2px white, 0 0 25px rgb(255, 3, 3), 0 0 5px rgb(255, 255, 255);
+}
+*{
+    background-color: rgb(5, 70, 25);
+    margin: 0;
+    padding: 0;
+}
+
+#texto03{
+    font-family: phudu sans-serif;
+}

@@ -1,0 +1,17 @@
+<clientes>
+    <cliente>
+        <nombre Juan=""></nombre>
+        <apellido Perez=""></apellido>
+        <ciudad>Huancayo</ciudad>
+    </cliente>
+    <cliente>
+        <nombre Juan=""></nombre>
+        <apellido Perez=""></apellido>
+        <ciudad>Huancayo</ciudad>
+    </cliente>
+    <cliente>
+        <nombre Juan=""></nombre>
+        <apellido Perez=""></apellido>
+        <ciudad>Huancayo</ciudad>
+    </cliente>
+</clientes>
